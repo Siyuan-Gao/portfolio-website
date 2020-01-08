@@ -3101,6 +3101,8 @@ input, select, textarea {
 
 	body.is-preload .banner.onload-content-fade-in .content {
 		opacity: 0;
+		font-size: 1.2rem;
+
 	}
 
 	.banner.onload-image-fade-up .image {
@@ -7340,7 +7342,7 @@ input, select, textarea {
 	}
 
 	#wrapper > .wrapper.style2.invert > .inner {
-		background-color: #000000;
+		background-color: black;
 	}
 
 /* Items (transitions) */
@@ -8603,3 +8605,10 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+			#wrapper{
+				background: #E5E7E9
+				;
+			}
+
+		
