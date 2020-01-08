@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background:black;
 }
 
 ol, ul {
@@ -98,9 +99,6 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #ffffff;
-	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -154,6 +152,7 @@ input, select, textarea {
 	body {
 		background-color: #ffffff;
 		color: #000000;
+		
 	}
 
 	body, input, select, textarea {
@@ -347,6 +346,7 @@ input, select, textarea {
 	hr {
 		border-bottom-color: rgba(0, 0, 0, 0.2);
 	}
+
 
 /* Row */
 
@@ -2632,7 +2632,9 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+
 	}
+
 
 		.image img {
 			display: block;
